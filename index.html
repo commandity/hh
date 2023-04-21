@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hearing Handicap Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Hearing Handicap Calculator</h1>
+      <form id="hearing-form">
+        <div class="input-group">
+          <label for="right-500hz">Right ear - 500Hz:</label>
+          <input
+            type="number"
+            id="right-500hz"
+            name="right-500hz"
+            step="0.1"
+            required
+          />
+        </div>
+        <div class="input-group">
+          <label for="left-500hz">Left ear - 500Hz:</label>
+          <input
+            type="number"
+            id="left-500hz"
+            name="left-500hz"
+            step="0.1"
+            required
+          />
+        </div>
+        <div class="input-group">
+          <label for="right-1000hz">Right ear - 1000Hz:</label>
+          <input
+            type="number"
+            id="right-1000hz"
+            name="right-1000hz"
+            step="0.1"
+            required
+          />
+        </div>
+        <div class="input-group">
+          <label for="left-1000hz">Left ear - 1000Hz:</label>
+          <input
+            type="number"
+            id="left-1000hz"
+            name="left-1000hz"
+            step="0.1"
+            required
+          />
+        </div>
+        <div class="input-group">
+          <label for="right-2000hz">Right ear - 2000Hz:</label>
+          <input
+            type="number"
+            id="right-2000hz"
+            name="right-2000hz"
+            step="0.1"
+            required
+          />
+        </div>
+        <div class="input-group">
+          <label for="left-2000hz">Left ear - 2000Hz:</label>
+          <input
+            type="number"
+            id="left-2000hz"
+            name="left-2000hz"
+            step="0.1"
+            required
+          />
+        </div>
+        <div class="input-group">
+          <label for="right-4000hz">Right ear - 4000Hz:</label>
+          <input
+            type="number"
+            id="right-4000hz"
+            name="right-4000hz"
+            step="0.1"
+            required
+          />
+        </div>
+        <div class="input-group">
+          <label for="left-4000hz">Left ear - 4000Hz:</label>
+          <input
+            type="number"
+            id="left-4000hz"
+            name="left-4000hz"
+            step="0.1"
+            required
+          />
+        </div>
+        <div class="button-group">
+          <button type="submit" class="calculate-btn">Calculate</button>
+        </div>
+      </form>
+      <div id="results"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
